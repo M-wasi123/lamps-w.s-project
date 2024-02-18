@@ -55,17 +55,35 @@ list-style: none;
 .opt{
     font-size: x-small;
 }
+.sear-btn{
+    border-radius: 10px;
+}
 .search{
+    border-radius: 10px;
     outline: none;
+    padding: 1px 10px;
+    text-transform: capitalize;
+}
+.btn-search{
+    border-radius: 10px;
+    outline: none;
+    padding: 1px 10px;
+    background-color: rgb(92, 235, 92);  
+}
+#bar{
+    display: none;
 }
 #lamp-image{
     width: 100%;
+    padding: 10px;
     height: 100vh;
     object-fit: cover;
 }
 .cards-page{
- display: flex;
- justify-content: center;
+    padding: 30px 50px;
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ column-gap: 20px;
 }
 .footer-detail{
     padding: 50px 20px;
